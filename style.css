@@ -1,0 +1,89 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+.scene {
+    background-color: rgb(46, 136, 58);
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.plateau {
+    background-color: rgb(114, 42, 42);
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    padding-top: 5%;
+    border-radius: 30px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.player {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    position: relative;
+}
+
+.rmvButton {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.restartButton {
+    font-size: 28px;
+    position: relative;
+    left: 45%;
+    top: 45%;
+}
+
+.slots {
+    background-color: rgb(58, 51, 51);
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    border: 1px solid black;
+}
+
+.batonnets {
+    background-color: rgb(170, 161, 77);
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    border: 1px solid black;
+}
+
+.computerTurn {
+    display: block;
+    background-color: rgba(46, 136, 58);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.switch {
+    position: relative;
+    bottom: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
